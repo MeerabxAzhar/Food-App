@@ -1,0 +1,91 @@
+
+/* BEGIN EXTERNAL SOURCE */
+
+        body {
+            background-color: #f8f9fa; /* Use a light background color */
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner {
+            background-color: purple;
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
+            color: white;
+            padding: 10px;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            width: 50%;
+            border: none;
+            background-color: purple;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            cursor: pointer;
+            padding: 12px 20px; /* Adjusted padding */
+            border-radius: 30px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+            input[type="submit"]:hover {
+                background-color: lightgray !important;
+                color: purple;
+            }
+
+        .container {
+            width: 70%;
+            margin: 30px auto;
+            border-radius: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: box-shadow 0.3s;
+        }
+
+            .container:hover {
+                box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+            }
+
+        .styled-gridview {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+            .styled-gridview th, .styled-gridview td {
+                padding: 10px;
+                text-align: center;
+            }
+
+            .styled-gridview th {
+                background-color: purple;
+                color: white;
+                font-weight: bold;
+                border-radius: 5px;
+            }
+
+            .styled-gridview tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            .styled-gridview tr:hover {
+                background-color: #ddd;
+            }
+
+        .delete-button {
+            background-color: purple;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .delete-button:hover {
+                background-color: #6b6b6b;
+            }
+    
+/* END EXTERNAL SOURCE */
